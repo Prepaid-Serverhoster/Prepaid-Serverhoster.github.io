@@ -1,0 +1,146 @@
+:root{
+    --background-color: #242424;
+    --boxbackground-color: #3d3d3d;
+    --font-color-2: #919191;
+    --green: #2ca102;
+    --orange: #e0a800;
+}
+
+body{
+    background-color: var(--background-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+.greencolor{
+    color: var(--green);
+    font-weight: 500;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headlogo{
+    margin-left: 100px;
+    margin-top: 6px;
+    height: 60px;
+}
+
+.navbartext{
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.headline{
+    color: white;
+    margin-left: 44%;
+    margin-top: 70px;
+    font-weight: 500;
+    font-size: 36px;
+    margin-right: 44%;
+    background-color: transparent;
+}
+
+.boxrow1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.box1{
+    margin-top: 160px;
+    color: white;
+    margin-left: 19%;
+    background-color: var(--boxbackground-color);
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.box2{
+    margin-top: 160px;
+    color: white;
+    margin-left: 1%;
+    background-color: var(--boxbackground-color);
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.box3{
+    margin-top: 160px;
+    color: white;
+    margin-left: 1%;
+    background-color: var(--boxbackground-color);
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+    text-decoration: none;
+    border-color: var(--orange);
+    border-width: 3px;
+    border-style: solid;
+}
+
+.wasurc{
+    margin-top: 100px;
+    background-color: var(--boxbackground-color);
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.wasurcheadline{
+    margin-left: 355px;
+    color: white;
+    font-weight: 400;
+}
+
+.wasurctextdiv{
+    color: white;
+    font-weight: 400;
+    margin-left: 355px;
+    margin-right: 355px;
+}
+
+.wasurctext{
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.abteilungslinks{
+    text-decoration: none;
+    color: var(--font-color-2);
+    font-weight: 500;
+}
+
+.abteilungslinks:hover{
+    text-decoration: underline;
+}
+
+
+.copiright{
+    background-color: var(--boxbackground-color);
+    margin-top: 80px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.copirighttext{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 300px;
+}

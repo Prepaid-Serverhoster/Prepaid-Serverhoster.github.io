@@ -1,0 +1,165 @@
+:root{
+    --background-color: #242424;
+    --boxbackground-color: #3d3d3d;
+    --green: #2ca102;
+    --orange: #e0a800;
+}
+
+body{
+    background-color: var(--background-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+.greencolor{
+    color: var(--green);
+    font-weight: 500;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headlogo{
+    margin-left: 100px;
+    margin-top: 6px;
+    height: 60px;
+}
+
+.navbartext{
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.headline{
+    color: white;
+    margin-left: 44%;
+    margin-top: 70px;
+    font-weight: 500;
+    font-size: 36px;
+    margin-right: 44%;
+    background-color: transparent;
+}
+
+.boxrow1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.box1{
+    margin-top: 160px;
+    color: white;
+    margin-left: 19%;
+    background-color: var(--boxbackground-color);
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.box2{
+    margin-top: 160px;
+    color: white;
+    margin-left: 1%;
+    background-color: var(--boxbackground-color);
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+    text-decoration: none;
+    border-color: var(--orange);
+    border-width: 3px;
+    border-style: solid;
+}
+.box3{
+    margin-top: 160px;
+    color: white;
+    margin-left: 1%;
+    background-color: var(--boxbackground-color);
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.headlinesani{
+    color: white;
+    margin-left: 46.5%;
+    margin-top: 110px;
+    font-weight: 500;
+    font-size: 36px;
+    margin-right: 46%;
+    background-color: transparent;
+}
+
+.Bild{
+    margin-top: 90px;
+    margin-left: 47%;
+}
+
+.nameperson{
+    margin-left: 45.5%;
+    color: white;
+    font-weight: 500;
+}
+
+.rang{
+    margin-left: 42.3%;
+    color: white;
+    font-weight: 400;
+}
+
+.nameperson2{
+    margin-left: 44.75%;
+    color: white;
+    font-weight: 500;
+}
+
+.rang2{
+    margin-left: 37.6%;
+    color: white;
+    font-weight: 400;
+}
+
+.Bild1{
+    margin-top: 90px;
+    margin-left: 20%;
+}
+
+.nameperson3{
+    margin-left: 18.15%;
+    color: white;
+    font-weight: 500;
+}
+
+.rang3{
+    margin-left: 13.1%;
+    color: white;
+    font-weight: 400;
+}
+
+.copiright{
+    background-color: var(--boxbackground-color);
+    margin-top: 80px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.copirighttext{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 300px;
+}
